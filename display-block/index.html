@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master en CSS</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="around">
+    <!-- Inicio de la cabecera -->
+    <header id="header">
+      <div id="logotipo">
+        <img src="img/logo.png" alt="logo de la web">
+      </div>
+
+      <h1>
+        <a href="https://dusandev.netlify.app/" target="_blank">
+          ESTE SITIO SOLO FUE CREADO CON DISPLAY BLOCK
+        </a>
+      </h1>
+    </header>
+    <!-- Fin de la cabecera -->
+
+    <!-- Menu de navegacion -->
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+
+        <li>
+          <a href="index.html">Contenido</a>
+        </li>
+
+        <li>
+          <a href="index.html">Requerimientos</a>
+        </li>
+
+        <li>
+          <a href="index.html">Lenguajes</a>
+          <ul>
+            <li>
+              <a href="index.html">HTML</a>
+            </li>
+            <li>
+              <a href="index.html">CSS</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="index.html">Frameworks</a>
+          <ul>
+            <li>
+              <a href="index.html">LESS</a>
+            </li>
+            <li>
+              <a href="index.html">SASS</a>
+            </li>
+            <li>
+              <a href="index.html">Bootstrap 5</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="index.html">Proyectos</a>
+        </li>
+
+        <li>
+          <a href="index.html">El Instructor</a>
+        </li>
+
+        <li>
+          <a href="index.html">Reseñas</a>
+        </li>
+
+        <li>
+          <a href="index.html">Blog</a>
+        </li>
+
+        <li>
+          <a href="index.html">Contacto</a>
+        </li>
+
+      </ul>
+    </nav>
+
+
+    <!-- Fin de Menu de navegacion -->
+
+    <!-- Inicio del contenido central -->
+    <div id="content">
+      <!-- Inicio de la barra lateral -->
+      <aside id="aside">
+        <div class="widget" id="login">
+          <h3>Entrar a la web</h3>
+          <form action="">
+            <label for="">Usuario</label>
+            <input type="text">
+
+            <label for="">Contraseña</label>
+            <input type="password">
+
+            <input type="submit" value="Entrar">
+          </form>
+
+          <a href="#">Zona de alumnos</a>
+          <a href="#">Zona de profesor</a>
+          <a href="#">Zona de calificaciones</a>
+
+        </div>
+
+        <div class="widget" id="login">
+          <h3 class="blue">Aula virtual 1</h3>
+          <form action="">
+            <label for="">Nombre de usuario</label>
+            <input type="text">
+
+            <label for="">Contraseña</label>
+            <input type="password">
+
+            <input type="submit" value="Entrar">
+          </form>
+        </div>
+
+        <div class="widget" id="login">
+          <h3 class="red">Aula virtual 2</h3>
+          <form action="">
+            <label for="">Nombre de usuario</label>
+            <input type="text">
+
+            <label for="">Contraseña</label>
+            <input type="password">
+
+            <input type="submit" value="Entrar">
+          </form>
+        </div>
+
+        <div class="widget" id="login">
+          <h3>Enlaces de interes</h3>
+
+          <ul>
+            <li>
+              <a href="#">Master en JavaScript</a>
+            </li>
+            <li>
+              <a href="#">Master en PHP</a>
+            </li>
+            <li>
+              <a href="#">Master en WEB full-Stack</a>
+            </li>
+            <li>
+              <a href="#">Master en Frameworks JS</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Fin de la barra lateral -->
+
+      <!-- INICIO DE LAS SECCIONES -->
+      <div id="sections">
+        <section id="frontend">
+          <span class="stickers">
+            <img class="stickerOne" src="img/scotch.png" alt="">
+            <img class="stickerTwo" src="img/scotch.png" alt="">
+          </span>
+          <h2 class="titulo">Noticias de Front-end</h2>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">React 16.8</a>
+              Desde el lanzamiento de React 16.8, los desarrolladores pueden usar Hooks, una nueva característica de
+              JavaScript para reutilizar el código de componentes sin la necesidad de crear clases. Esta nueva
+              funcionalidad facilita la creación de interfaces más intuitivas para los usuarios.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Angular 9</a>
+              Angular 9, el último lanzamiento de la plataforma de desarrollo web, ofrece mejoras en la optimización de
+              la
+              velocidad de carga, mejora la estabilidad y facilita la creación de aplicaciones con mayor velocidad.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p>
+              Node.js 10.16 trae algunas interesantes novedades, como la posibilidad de usar una versión mejorada de
+              ECMAScript, un lenguaje de programación que permite a los desarrolladores crear aplicaciones web más
+              rápidas
+              y potentes.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Webpack 5</a>
+              El último lanzamiento de Webpack 5 ofrece una mejora significativa en la performance, permitiendo a los
+              desarrolladores construir aplicaciones web más rápidas con una menor cantidad de código. Esta herramienta
+              también facilita el uso de nuevas tecnologías y mejoras en la productividad del equipo.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+        </section>
+
+        <section id="backend">
+          <span class="stickers">
+            <img class="stickerOne" src="img/scotch.png" alt="">
+            <img class="stickerTwo" src="img/scotch.png" alt="">
+          </span>
+          <h2 class="titulo red">Noticias de Back-end</h2>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Azure Stack Edge</a>
+              Microsoft anuncia el lanzamiento de su nuevo servicio de backend, Azure Stack Edge. Esta plataforma
+              permite
+              a los desarrolladores crear aplicaciones de escalado masivo en la nube. Está diseñada para proporcionar
+              mayor capacidad de procesamiento y almacenamiento a los clientes, ofreciendo un rendimiento óptimo para
+              las
+              cargas de trabajo de back-end.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">MongoDB</a>
+              MongoDB, proveedor líder de base de datos, ha ampliado sus servicios de backend para incluir el
+              almacenamiento en caché. Esta nueva característica permite a los desarrolladores aprovechar el
+              almacenamiento en caché para reducir los tiempos de respuesta de las aplicaciones y mejorar su
+              rendimiento.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Amazon Managed Blockchain</a>
+              AWS lanza Amazon Managed Blockchain. Esta plataforma permite a los usuarios crear, administrar y gestionar
+              redes de blockchain de una forma sencilla. Ofrece herramientas de administración de blockchain para crear
+              y
+              gestionar redes blockchain escalables, seguras y libres de problemas.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Cloud Run</a>
+              Google Cloud anuncia el lanzamiento de Cloud Run. Esta plataforma permite a los desarrolladores construir,
+              implementar y escalar aplicaciones de contenedor de forma rápida y sencilla. Está diseñada para
+              proporcionar
+              una solución de back-end escalable y segura para las aplicaciones de contenedor.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+        </section>
+
+        <section id="instructor">
+          <span class="stickers">
+            <img class="stickerOne" src="img/scotch.png" alt="">
+            <img class="stickerTwo" src="img/scotch.png" alt="">
+          </span>
+          <h2 class="titulo orange">Noticias Destacadas</h2>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Escasez de Oportunidades de Contratación</a>
+              Los programadores junior se enfrentan a un entorno cambiante en cuanto a la contratación. Muchos se
+              sienten
+              frustrados por no poder encontrar trabajo porque su experiencia y habilidades no son del todo reconocidas.
+              Si bien el mercado laboral en desarrollo de software sigue siendo fuerte, muchos programadores jóvenes se
+              sienten atrapados por la escasez de oportunidades de contratación. Esta realidad puede ser aún más
+              aplicable
+              en ciertas áreas geográficas, donde la competencia por los puestos de programación es más intensa. Para
+              los
+              programadores junior, esto puede ser una prueba de fuego que determinará si quedarán atrapados en una
+              situación de "no contratación "o si serán capaces de encontrar un camino para avanzar en su carrera.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Stanford ha lanzado Mindstrong</a>
+              La tecnología avanza y las herramientas disponibles para abordar la salud mental son cada vez más
+              numerosas. La Universidad de Stanford ha lanzado Mindstrong, una aplicación basada en la inteligencia
+              artificial (IA) que permite a los usuarios registrar sus síntomas de salud mental, recibir consejos y
+              apoyo basados en la evidencia científica y conectarse con terapeutas. Además, los usuarios pueden acceder
+              a una variedad de herramientas relacionadas con la salud mental como meditaciones guiadas, herramientas de
+              autocuidado y una red de apoyo comunitario.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+
+          <article class="article">
+            <span class="icon">a</span>
+            <p><a href="#">Una nueva aplicación de salud mental, llamada MyStrength</a>
+              Una nueva aplicación de salud mental, llamada MyStrength, está ayudando a las personas a manejar el estrés
+              y la ansiedad de forma segura y fácil. Esta aplicación ofrece recursos para la gestión del estrés, como
+              consejos sobre la relajación, herramientas para el autocuidado y una variedad de actividades para la
+              atención plena. Además, hay una función de consejería digital que conecta a los usuarios con terapeutas
+              licenciados. La aplicación también proporciona un acceso móvil a la terapia cognitiva conductual, que
+              ayuda a los usuarios a desarrollar herramientas para afrontar sus preocupaciones.
+            </p>
+            <span class="date">[16-12-2022. Douglas San Anton]</span>
+          </article>
+        </section>
+      </div>
+      <!-- FIN DE LAS SECCIONES -->
+
+      <aside id="frase" >
+        <p class="fhover">
+          "La tecnología está haciendo que la salud mental de la generación más joven se deteriore".
+        </p>
+        <hr>
+        <p class="fhover">
+          "El uso excesivo de la tecnología está deshumanizando a la sociedad".
+        </p>
+        <hr>
+        <p class="fhover">
+          "La tecnología está socavando la capacidad de las personas para conectarse y desarrollar relaciones sociales
+          saludables".
+        </p>
+        <hr>
+        <p class="fhover">
+          "La tecnología está provocando un aumento en el aislamiento social y trastornos de ansiedad".
+        </p><br>
+        <a href="#">Leer mas frases</a>
+      </aside>
+
+      <div class="clearfix"></div>
+
+      <div id="history">
+        <a href="#">[Ver historicos de noticias]</a>
+      </div>
+    </div>
+    <!-- Fin del contenido central -->
+
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+      <p>&copy; Desarrollador Douglas San Anton</p>
+      <p>Mas contenido y portafolio en <a href="https://dusandev.netlify.app/" target="_blank">Dusandev</a></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
